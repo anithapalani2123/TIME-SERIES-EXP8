@@ -20,7 +20,7 @@ Implementation of ARIMA model using python.
 
 ## PROGRAM:
 
-python
+```python
 
 import pandas as pd
 df = pd.read_csv('website_data.csv')
@@ -74,7 +74,7 @@ df['forecast_auto'] = [None]*len(df_train) + list(forecast_test_auto)
 
 df.plot()
 
-
+```
 ## OUTPUT:
 
 ### ACF - PACF
